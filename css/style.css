@@ -1,0 +1,22 @@
+body
+{
+    background-color: plum;
+}
+
+
+.navbar{
+
+    text-align: right;
+}
+
+.navbar a{
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    transition: .2s;
+    color: greenyellow;
+
+}
