@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dande-portfolio</title>
     <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/563c07b71b.js" crossorigin="anonymous"></script>
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 
 </head>
 <body>
@@ -29,19 +31,19 @@
             <h1>About</h1>
                <table>
                 <tr>
+                    <p>My name is Vivian Dande.I am passionate about tech and programming. My focus is to be a full stack developer.</p>
                  <th>Hobbies</th>
-                 <P>My name is Vivian Dande.I am passionate about tech and programming. My focus is to be a full stack developer.</P>
                  <th>Interests</th>
                 </tr>
                 <tr>
-                 <td></strong></td>
-                 <td></td>
+                 <td>When I am not into Tech, I like playing scrabble, socializing and reading variety of books. Learning new languages is also in my interest.</strong></td>
+                 <td>My interest is in coding and programming. I am also interested in editing and creating things from scratch.</td>
                 </tr>
                </table>
         </div>
         <div id="education">
             <h1>Education and Skills</h1>
-            <p> I am a holder of Bachelors Degree in Communication and Media Technology with Information Technology and a certificate in customer care. Currently, studying software engineering at Moringa School. </strong>.</p>
+            <p> I am a holder of Bachelors Degree in Communication and Media Technology with Information Technology and a certificate in customer care. Currently, studying software engineering at Moringa School. My skills includes; HTML, CSS and JavaScript. I am also a fast learner, who solves problems in timely manner. Organized with excellent communication skill and I can work well both in teams and in group settings</strong>.</p>
         </div>
 
 
@@ -54,3 +56,61 @@
                         <input type="text" id="Name" name="Name" class="form-control" required>
                     </div>
                 </div>
+
+                <div class="form-group">
+                    <label for="Email" class="form-group-label">Your email address</label>
+                    <div class="form-input">
+                        <input type="email" id="Email" name="Email" class="form-control" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="Message" class="form-group-label">Your message</label>
+                    <div class="form-input">
+                        <textarea id="Message" name="Message" class="form-control" rows="6" maxlength="3000" required></textarea>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <button type="submit" id="button" class="button">Send Message</button>
+                </div>
+            </form>
+            </div>
+        </div>
+        </div>
+        <br>
+        <br>
+        <button id = "add-btn" onclick="displayAddress()">Click to Display/Hide My Address!</button>
+        <div id="addr">
+        <address>
+            <b>
+            Written by <a href="mailto:viviandande16@gmail.com">Vivian Dande</a>, <br>
+            Address: Nairobi, Kenya. <br>
+            </b>
+
+        </address>
+        </div>
+
+        </div>
+
+        <div id="socials">
+
+                <a href="https://github.com/viviandande"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/feed/"><i class="fa-brands fa-linkedin"></i></a>
+
+            </div>
+
+        <div id="footer">
+
+
+                <hr>
+                    <span class = "multicolortext">Made by Vivian Dande | <i class="fa-solid fa-copyright"></i> 2022 All Rights Reserved.</span>
+                <hr>
+            </div>
+
+
+            </div>
+
+
+                    <script src="./js/index.js"></script>
+        </body>
+        </html>
